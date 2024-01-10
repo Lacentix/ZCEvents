@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 using System.Collections.Generic; // Add this namespace for List
 using System.Data.SqlClient;
 
-namespace E_commerce.Pages
+namespace ZCEvents.Pages
 {
     public class RegisterModel : PageModel
     {
