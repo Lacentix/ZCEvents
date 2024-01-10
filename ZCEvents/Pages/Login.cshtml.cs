@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
 
-namespace E_commerce.Pages
+namespace ZCEvents.Pages
 {
     public class LoginModel : PageModel
     {
