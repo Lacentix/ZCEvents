@@ -4,7 +4,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Numerics;
 
-namespace E_commerce.Pages;
+namespace ZCEvents.Pages;
 
 public class contact : PageModel
 {
