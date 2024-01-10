@@ -15,4 +15,8 @@ public class IndexModel : PageModel
     public void OnGet()
     {
     }
+    public IActionResult? OnPost()
+    {
+        return RedirectToPage("/contact");
+    }
 }
