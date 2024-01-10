@@ -1,51 +1,137 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>@ViewData["Title"] - ZCEvents</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
-    <link rel="stylesheet" href="~/ZCEvents.styles.css" asp-append-version="true"/>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>E-Commerce</title>
+
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="~/assets/css/e-commerce.css">
+
+    <link rel="stylesheet" href="~/assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="~/assets/css/lightbox.css">
+
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container">
-            <a class="navbar-brand" asp-area="" asp-page="/Index">ZCEvents</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <a href="Index" class="logo">
+                        <img src="assets/images/zc-logo.png" class="center">
+                    </a>
+                    <ul class="nav">
+                        <li>
+                            <a href="Index">Home</a>
+                        </li>
+                        <li>
+                            <a href="products">Products</a>
+                        </li>
+                        <li>
+                            <a href="Cart">Cart</a>
+                        </li>
+                        <li>
+                            <a href="Register">Register</a>
+                        </li>
+                        <li>
+                            <a href="Login">Log In</a>
+                        </li>                                
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+@RenderBody()
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <h4 style="color: white;">ZCSF</h4>
+                <ul>
+                    <li>
+                        <a href="Index">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                    <li>
+                        <a href="contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-</header>
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
+            <div class="col-lg-3">
+                <h4>Shopping</h4>
+                <ul>
+                    <li>
+                        <a href="products">View Products</a>
+                    </li>
 
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2024 - ZCEvents - <a asp-area="" asp-page="/Privacy">Privacy</a>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h4>Latest Trends</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.dailycardinal.com/article/2023/10/2023s-top-trends-in-mens-fashion">Men's</a>
+                    </li>
+                    <li>
+                        <a href="https://thevou.com/fashion/current-fashion-trends/">Women's</a>
+                    </li>
+                    <li>
+                        <a href="https://moonpreneur.com/blog/current-trends-for-kids/">Kid's</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h4>Help</h4>
+                <ul>
+                    <li>
+                        <a href="contact">Submit a Ticket</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-12">
+                <div class="under-footer">
+                    <p>SWD Project
+
+
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
 
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
 
-@await RenderSectionAsync("Scripts", required: false)
+<script src="~/assets/js/jquery-2.1.0.min.js"></script>
+
+
+<script src="~/assets/js/popper.js"></script>
+<script src="~/assets/js/bootstrap.min.js"></script>
+
+
+<script src="~/assets/js/owl-carousel.js"></script>
+<script src="~/assets/js/accordions.js"></script>
+<script src="~/assets/js/datepicker.js"></script>
+<script src="~/assets/js/scrollreveal.min.js"></script>
+<script src="~/assets/js/waypoints.min.js"></script>
+<script src="~/assets/js/jquery.counterup.min.js"></script>
+<script src="~/assets/js/imgfix.min.js"></script>
+<script src="~/assets/js/slick.js"></script>
+<script src="~/assets/js/lightbox.js"></script>
+<script src="~/assets/js/isotope.js"></script>
+
+@await RenderSectionAsync("Scripts", false)
 </body>
 </html>
