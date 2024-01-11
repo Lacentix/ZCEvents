@@ -1,6 +1,6 @@
-﻿using E_commerce.Pages;
+﻿using ZCEvents.Pages;
 
-namespace E_commerce.Models
+namespace ZCEvents.Models
 {
     public class reviews
     {

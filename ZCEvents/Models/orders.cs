@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace E_commerce.Models
+namespace ZCEvents.Models
 {
     public class orders
     {

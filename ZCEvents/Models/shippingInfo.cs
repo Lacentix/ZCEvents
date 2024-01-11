@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace E_commerce.Models
+namespace ZCEvents.Models
 {
     public class shippingInfo
     {
