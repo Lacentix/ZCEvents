@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ZCEvents.Pages;
 
-public class contact : PageModel
+public class Contact : PageModel
 {
     [BindProperty] public string name { get; set; }
 
