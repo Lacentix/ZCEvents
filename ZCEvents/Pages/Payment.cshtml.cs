@@ -12,7 +12,7 @@ public class PaymentModel : PageModel
     public IActionResult OnPost(string submitType)
     {
         if (submitType == "submit")
-            return RedirectToPage("/Thanks");
+            return RedirectToPage("/Index");
         return Page();
     }
 }

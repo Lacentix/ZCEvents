@@ -67,7 +67,7 @@ public class RegisterModel : PageModel
                     var rowsAffected = cmd.ExecuteNonQuery();
 
                     if (rowsAffected > 0)
-                        return RedirectToPage("/products");
+                        return RedirectToPage("/Index");
                     // Handle invalid credentials or redirect to a specific page
                     return Page(); // Or return a specific error page
                 }
@@ -101,7 +101,7 @@ public class RegisterModel : PageModel
                     var rowsAffected = cmd.ExecuteNonQuery();
 
                     if (rowsAffected > 0)
-                        return RedirectToPage("/products");
+                        return RedirectToPage("/Index");
                     // Handle invalid credentials or redirect to a specific page
                     return Page(); // Or return a specific error page
                 }
