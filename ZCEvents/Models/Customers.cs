@@ -1,12 +1,11 @@
-﻿namespace ZCEvents.Models
+﻿namespace ZCEvents.Models;
+
+public class Customers
 {
-    public class Customers
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public string ShoppingCartID { get; set; }
-        public string ShippingInfo { get;}
-    }
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; }
+    public string ShoppingCartID { get; set; }
+    public string ShippingInfo { get; }
 }

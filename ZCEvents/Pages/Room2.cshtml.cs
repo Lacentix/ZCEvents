@@ -6,6 +6,5 @@ public class Room2 : PageModel
 {
     public void OnGet()
     {
-        
     }
 }

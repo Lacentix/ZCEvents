@@ -1,11 +1,9 @@
-﻿namespace ZCEvents.Models
-{
-    public class Adminstrators
-    {
-        public int adminID { get; set; }
-        public string permessionLevel { get; set; }
-        public string actionTaken { get; set;  }
-        public int emplyeeID { get; set; }
+﻿namespace ZCEvents.Models;
 
-    }
+public class Adminstrators
+{
+    public int adminID { get; set; }
+    public string permessionLevel { get; set; }
+    public string actionTaken { get; set; }
+    public int emplyeeID { get; set; }
 }

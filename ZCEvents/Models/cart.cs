@@ -1,9 +1,8 @@
-﻿namespace ZCEvents.Models
+﻿namespace ZCEvents.Models;
+
+public class cart
 {
-    public class cart
-    {
-        public int ShoppingCartID { get; set; }
-        public int itemsCount { get; set; }
-        public float itemsPrice { get; set; }
-    }
+    public int ShoppingCartID { get; set; }
+    public int itemsCount { get; set; }
+    public float itemsPrice { get; set; }
 }

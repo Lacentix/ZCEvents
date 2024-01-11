@@ -140,21 +140,23 @@ body {
         margin-bottom: 60px;
     }
 }
+
 .main-border-button {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
+
 .main-border-button a {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #fff;
-        border-radius: 5px;
-        text-decoration: none;
-        transition: background-color 0.3s ease;
-    }
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
 
 .main-border-button a:hover {
     background-color: #fff;
@@ -681,12 +683,12 @@ banner
     overflow: hidden;
 }
 
-    .main-banner .left-content .inner-content {
-        position: absolute;
-        left: 2000px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+.main-banner .left-content .inner-content {
+    position: absolute;
+    left: 2000px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 .main-banner .left-content .inner-content h4 {
     color: #fff;
@@ -1863,11 +1865,11 @@ Single Product Page
     text-align: center; /* This centers the inline elements inside the div */
 }
 
-    .total .main-border-button a {
-        border-color: #2a2a2a;
-        color: #2a2a2a;
-        display: inline-block;
-    }
+.total .main-border-button a {
+    border-color: #2a2a2a;
+    color: #2a2a2a;
+    display: inline-block;
+}
 
 .total .main-border-button a:hover {
     color: #fff;
@@ -2326,12 +2328,12 @@ responsive
 
 @media (max-width: 767px) {
     .main-banner .left-content .thumb .inner-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* center content vertically */
-    align-items: center;     /* center content horizontally */
-    height: 100%;            /* take full height of the parent */
-}
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* center content vertically */
+        align-items: center; /* center content horizontally */
+        height: 100%; /* take full height of the parent */
+    }
 
 
     .subscribe form button {

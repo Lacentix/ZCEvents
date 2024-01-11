@@ -6,6 +6,5 @@ public class MainPlay : PageModel
 {
     public void OnGet()
     {
-        
     }
 }

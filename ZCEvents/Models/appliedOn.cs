@@ -1,8 +1,7 @@
-﻿namespace ZCEvents.Models
+﻿namespace ZCEvents.Models;
+
+public class appliedOn
 {
-    public class appliedOn
-    {
-        public int productId { get; set; }
-        public int couponID { get; set; }
-    }
+    public int productId { get; set; }
+    public int couponID { get; set; }
 }

@@ -6,6 +6,5 @@ public class Speakers : PageModel
 {
     public void OnGet()
     {
-        
     }
 }

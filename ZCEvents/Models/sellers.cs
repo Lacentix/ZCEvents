@@ -1,10 +1,9 @@
-﻿namespace ZCEvents.Models
+﻿namespace ZCEvents.Models;
+
+public class sellers
 {
-    public class sellers
-    {
-        public int SellerID { get; set; }
-        public string sellerName  { get; set; }
-        public string sellerEmail  { get; set; }
-        public int sellerContactNumber  { get; set; }
-    }
+    public int SellerID { get; set; }
+    public string sellerName { get; set; }
+    public string sellerEmail { get; set; }
+    public int sellerContactNumber { get; set; }
 }

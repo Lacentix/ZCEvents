@@ -1,9 +1,8 @@
-﻿namespace ZCEvents.Models
+﻿namespace ZCEvents.Models;
+
+public class categories
 {
-    public class categories
-    {
-        public int categoryId { get; set; }
-        public string categoryName { get; set; }
-        public int productID { get; set; }
-    }
+    public int categoryId { get; set; }
+    public string categoryName { get; set; }
+    public int productID { get; set; }
 }

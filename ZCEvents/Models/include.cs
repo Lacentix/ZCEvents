@@ -1,8 +1,7 @@
-﻿namespace ZCEvents.Models
+﻿namespace ZCEvents.Models;
+
+public class include
 {
-    public class include
-    {
-        public int productId { get; set; }
-        public int shoppingCartID { get; set; }
-    }
+    public int productId { get; set; }
+    public int shoppingCartID { get; set; }
 }
