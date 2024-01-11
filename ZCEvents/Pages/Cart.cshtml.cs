@@ -34,7 +34,7 @@ public class CartModel : PageModel
         // Clear the cart after checkout (you should implement this logic)
         // ClearCart();
 
-        return RedirectToPage("/COD");
+        return RedirectToPage("/Index");
     }
 
     private decimal CalculateTotalPrice()
